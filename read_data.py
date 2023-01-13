@@ -11,5 +11,5 @@ def read_data(file_path: str)->dict:
     """
     #open file
     f = open(file_path)
-    w = json.loads(f)
-    return w
+    x = f.read()
+    return json.loads(x)
